@@ -1,68 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV. Naira</title>
+    <title>CV. Davin</title>
     <link rel="shortcut icon" type="jpeg/png" href="gambar/1.jpeg">
-    <body bgcolor="#D7E7F3">
-        <font face="verdana">
-        <table border="0" style="border-collapse: collapse" width="100%" cellpadding="8" border color="black">
-        <tr>
-        <td width="20%">
-        <table border="0" style="border-collapse: collapse" width="100%" cellpadding="8" border color="black">
-        <tr>
-        <td align="center"><img border="1" height="100" width="150" src="gambar/2.jpeg"></td>
-        </tr>
-        </table>
-        <p><hr></p> 
+    <style>
+        #navigation {
+            background-color: black;
+            width: 100%;
+            height: 39px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #naviigation ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        #navigation ul li {
+            float: left;
+            position: relative;
+        }
+
+        #navigation ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
         
-        <table border="0" style="border-collapse: collapse" width="100%" cellpadding="8" border color="black">
-        <tr>
-        <td><font size="2">
-        <ul>
-        <li><a href="profil.html">Profil</a></li>
-        <li><a href="kegiatan.html">Kegiatan</a></li>
-        <li><a href="foto.html">Fotoku</a></li>
-        <li><a href="mailto: namasendiri@yahoo.com">Email saya</a></li>
-        </ul>
-        </td>
-        </tr>
-        </table>
-        </td>
-        <td valign="top">
-        <p align="center"><font size="4"><b>SELAMAT DATANG DI WEBSITEKU</b></font></p>
-        <p><font size="2">Saya ucapkan terima kasih atas kunjungan anda ke website
-        saya. Pada website ini anda dapat melihat profil data diri saya dan kegiatan kegiatan yang saya lakukan. Di bawah ini adalah puisi yang saya buat beberapa
-        waktu lalu. Inspirasi puisi ini datang ketika saya termenung sendirian dan
-        memandang langit nan luas.</font></p>
-        <p><b>Aku dan Tuhanku</b></p>
-        <p><font size="2">
-        <i>Ketika aku memandang langit<br>
-        aku bertanya pada pada diriku<br>
-        aku...<br>
-        <br>
-        siapakah aku sebenarnya?<br>
-        darimanakah aku berasal?<br>
-        jauhkah aku dari Tuhanku?<br>
-        aku....<br>
-        <br>
-        Tuhan...<br>
-        betapa kuasanya engkau<br>
-        menciptakan langit dan bumi<br>
-        untuk menghidupi orang-orang<br>
-        seperti aku<br>
-        <br>
-        aku...<br>
-        apakah aku sudah mengabdi kepadamu?<br>
-        rasanya hanya aku dan Engkau yang tahu<br>
-        </i></font></p>
-        </td>
-        </tr>
-        </table>
-        </body>
+        .teks {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .video {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        transform: scale(0.8);
+        transform-origin: left;
+        }
+        .video iframe {
+        width: 48%;
+        }
+        a {
+        color: blue;
+        text-decoration: none; 
+        }
+    </style>
 </head>
-<body>
-    
+
+<body bgcolor="#D7E7F3">
+    <div id="navigation">
+        <ul id="nav">
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+            <li><a href="foto.html">Fotoku</a></li>
+            <li><a href="mailto: kudav-davin@mhs.pelitabangsa.ac.id">Email saya</a></li>
+        </ul>
+    </div>
+    <div class="teks">
+        <p align="center">
+            <font size="4"><b>SELAMAT DATANG DI WEBSITEKU</b></font>
+        </p>
+        <center>
+            <img height="150" width="150" src="gambar/2.jpeg">
+            <p>
+                Terima kasih telah berkunjung di website saya.
+                Di website ini anda dapat melihat profil data diri saya dan kegiatan kegiatan yang
+                saya lakukan.<br>
+            </p>
+        </center>
+    </div>
+    <div class="teks">
+        <b>Kegiatan yang saya lakukan dirumah</b><br>
+        <ol>
+            <li>
+                menggambar pixel
+            </li>
+            <img src="gambar/1.jpeg" alt="pixel" width="150" height="150">
+            <li>
+                ngoding game
+            </li>
+            <img src="gambar/gd3.png" alt="godot" width="350" height="200" >
+            <img src="gambar/rbs.png" alt="roblox" width="350" height="200">
+        </ol>
+        <b>musik favorit</b>
+        <div class="video">
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/RVk3jW4TeMA" title="VØJ x Narvent &quot;Memory Reboot (Over Slowed)&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/AmUuRSbpvBQ" title="FrankJavCee - Simpsonwave1995 | Slowed + Reverb Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <b>channel youtube favorit</b>
+        <div>
+            <ol>
+                <li>
+                    <a href="https://youtube.com/@SulaemanSantoso?si=xckN7-CAPVEGmuhp" target="_blank">Sulaeman Santoso</a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@Duzzles?si=Al3T2XhbdMmGq5Hc" target="_blank">Duzzle</a>
+                </li>
+            </ol>
+        </div>
+    </div>
 </body>
+
 </html>
